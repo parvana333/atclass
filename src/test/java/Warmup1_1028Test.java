@@ -20,4 +20,17 @@ public class Warmup1_1028Test {
         assertEquals(0,w.findsum("asd xcv"));
 
     }
+
+    @org.junit.Test
+    public void findsum4() {
+        Warmup1_1028 w=new Warmup1_1028();
+        assertEquals(0,w.findsum(null));
+
+    }
+    @org.junit.Test
+    public void findsum5() {
+        Warmup1_1028 w=new Warmup1_1028();
+        assertEquals(1,w.findsum("-1 2"));
+
+    }
 }

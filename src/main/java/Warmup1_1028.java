@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Warmup1_1028  {
     public int findsum(String s){
         int sum=0;
+        if(s==null) return 0;
         String [] arr=s.split(" ");
         ArrayList<Integer> numbers=new ArrayList<>();
         for(String a:arr){
