@@ -82,10 +82,11 @@ public class CalcServlet extends HttpServlet {
         }
       }
     }
-    if(!name.equals("empty")){
-      String result=calc(req.getParameter("num1"),req.getParameter("num2"),req.getParameter("op"));
-      dataStorage.addToDb(req.getParameter("num1"),req.getParameter("num2"),req.getParameter("op"),result,name);
-    }
+//    if(Checkingcookie.check(req))
+//    if(!name.equals("empty")){
+//      String result=calc(req.getParameter("num1"),req.getParameter("num2"),req.getParameter("op"));
+//      dataStorage.addToDb(req.getParameter("num1"),req.getParameter("num2"),req.getParameter("op"),result,name);
+//    }
 
   }
 }
